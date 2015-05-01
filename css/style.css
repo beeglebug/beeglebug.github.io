@@ -1,0 +1,30 @@
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h3 {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #EEE;
+    display: inline-block;
+}
+
+.header {
+    text-align: right;
+}
+
+.header li {
+    list-style: none;
+}
+
+body > .container {
+    margin-top: 2em;
+}
