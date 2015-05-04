@@ -21,14 +21,16 @@ li:first-child h3 {
     margin-top: 0;
 }
 
-.header {
-    text-align: right;
+.header ul {
+    padding-left: 0;
 }
 
 .header li {
     list-style: none;
 }
 
-body > .container {
-    margin-top: 2em;
+@media (min-width: 992px) {
+    .header {
+        text-align: right;
+    }
 }
